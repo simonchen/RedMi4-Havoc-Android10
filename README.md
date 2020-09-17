@@ -2,6 +2,12 @@
 [Redmi4 Prime]
 Full guides How to install Havoc OS, and applying MagiskSu, Extending camera2 API, Enable to save images/videos on SD Card (without formatting as internal storage)
 
+## fbind (magisk 20.4 support)
+This is an advanced mounting utility for folders, EXT4 images (loop devices), LUKS/LUKS2 encrypted volumes, regular partitions and more.
+https://github.com/VR-25/fbind
+
+Downloading the flash zip from https://forum.xda-developers.com/apps/magisk/module-magic-folder-binder-t3621814/page167/amp/
+
 ## GCam version choice
 This developer - Parrot043 uses Redmi Note x , it's better also for Redmi4 Prime
 https://www.celsoazevedo.com/files/android/google-camera/dev-parrot043/
