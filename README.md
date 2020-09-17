@@ -1,5 +1,10 @@
 # RedMi4-Havoc-Android10
-Full guides  How to install Havoc OS, and applying MagiskSu, Extending camera2 API, Enable to save images/videos on SD Card (without formatting as internal storage)
+[Redmi4 Prime]
+Full guides How to install Havoc OS, and applying MagiskSu, Extending camera2 API, Enable to save images/videos on SD Card (without formatting as internal storage)
+
+## GCam version choice
+This developer - Parrot043 uses Redmi Note x , it's better also for Redmi4 Prime
+https://www.celsoazevedo.com/files/android/google-camera/dev-parrot043/
 
 ## How to use GCam without GApps »
 https://www.celsoazevedo.com/files/android/google-camera/troubleshooting/#help12
