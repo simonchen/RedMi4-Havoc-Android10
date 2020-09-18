@@ -8,6 +8,10 @@ https://github.com/VR-25/fbind
 
 Downloading the flash zip from https://forum.xda-developers.com/apps/magisk/module-magic-folder-binder-t3621814/page167/amp/
 
+Autorun(Auto-mount) won't work on boot on Android 10+
+### Solution:
+I've built a new flash zip to resolve this issue
+
 ## GCam version choice
 This developer - Parrot043 uses Redmi Note x , it's better also for Redmi4 Prime
 https://www.celsoazevedo.com/files/android/google-camera/dev-parrot043/
