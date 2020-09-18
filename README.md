@@ -14,7 +14,7 @@ Downloading the [flash zip](https://github.com/simonchen/RedMi4-Havoc-Android10/
 
 Autorun(Auto-mount) won't work on boot on Android 10+
 ### Run fbind as init service:
-I've built a new flash zip to resolve this issue
+I've built a new [flash zip](https://github.com/simonchen/RedMi4-Havoc-Android10/blob/master/fbind-2020.9.18-fix-service.zip) to resolve this issue
 
 ## GCam version choice
 This developer - Parrot043 uses Redmi Note x , it's better also for Redmi4 Prime
