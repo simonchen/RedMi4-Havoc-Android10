@@ -10,7 +10,7 @@ I found that 3rd party fbind utility for resolve this issue, that you can mount 
 This is an advanced mounting utility for folders, EXT4 images (loop devices), LUKS/LUKS2 encrypted volumes, regular partitions and more.
 https://github.com/VR-25/fbind
 
-Downloading the flash zip from https://forum.xda-developers.com/apps/magisk/module-magic-folder-binder-t3621814/page167/amp/
+Downloading the [flash zip](https://github.com/simonchen/RedMi4-Havoc-Android10/blob/master/fbind-2020.9.18-fix-service.zip) from https://forum.xda-developers.com/apps/magisk/module-magic-folder-binder-t3621814/page167/amp/
 
 Autorun(Auto-mount) won't work on boot on Android 10+
 ### Run fbind as init service:
