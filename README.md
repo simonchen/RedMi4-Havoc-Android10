@@ -3,13 +3,17 @@
 Full guides How to install Havoc OS, and applying MagiskSu, Extending camera2 API, Enable to save images/videos on SD Card (without formatting as internal storage)
 
 ## fbind (magisk 20.4 support)
+Although, Storage Access Framework would be helpful for use of SD Card, but some Apps (such as GCam ) still have no interface to permit App. to use SD Card,
+I found that 3rd party fbind utility for resolve this issue, that you can mount folder from internal storage pointing to external SD Card folder.
+
+### what's fbind ?
 This is an advanced mounting utility for folders, EXT4 images (loop devices), LUKS/LUKS2 encrypted volumes, regular partitions and more.
 https://github.com/VR-25/fbind
 
 Downloading the flash zip from https://forum.xda-developers.com/apps/magisk/module-magic-folder-binder-t3621814/page167/amp/
 
 Autorun(Auto-mount) won't work on boot on Android 10+
-### Solution:
+### Run fbind as init service:
 I've built a new flash zip to resolve this issue
 
 ## GCam version choice
