@@ -11,11 +11,12 @@ This is an advanced mounting utility for folders, EXT4 images (loop devices), LU
 https://github.com/VR-25/fbind
 
 Downloading the [flash zip](https://github.com/simonchen/RedMi4-Havoc-Android10/blob/master/fbind-2020.9.18-fix-service.zip) from https://forum.xda-developers.com/apps/magisk/module-magic-folder-binder-t3621814/page167/amp/
+Note: Autorun(Auto-mount) won't work on boot on Android 10+ 
 
-Autorun(Auto-mount) won't work on boot on Android 10+
-### Run fbind as init service:
-I've built a new [flash zip](https://github.com/simonchen/RedMi4-Havoc-Android10/blob/master/fbind-2020.9.18-fix-service.zip) to resolve this issue,
-also I've fixed an issue to unmount branch on /runtime/full , therefore, it can be fully unmounted successfully if you want to remove the bind (that need to execute command <code>/system/bin/fbind -u</code>)
+### Fix to run fbind on boot:
+Special for Android 10+, I've built a new [flash zip](https://github.com/simonchen/RedMi4-Havoc-Android10/blob/master/fbind-2020.9.18-fix-service.zip) to fix the issue boot,
+the original -a (auto-mount) option is not available again, instead, it will auto-start fbind to mount folders from /data/adb/fbind/config.txt
+Also I've fixed an issue to unmount the extra branch on /runtime/full, therefore, the folders you defined in config.txt can be fully unmounted successfully (that need to execute command <code>/system/bin/fbind -u</code>)
 
 ## GCam version choice
 This developer - Parrot043 uses Redmi Note x , it's better also for Redmi4 Prime
