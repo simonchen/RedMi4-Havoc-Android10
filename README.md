@@ -4,7 +4,7 @@ Full guides How to install Havoc OS, and applying MagiskSu, Extending camera2 AP
 
 ## fbind (magisk 20.4 support)
 Although, Storage Access Framework would be helpful for use of SD Card, but some Apps (such as GCam ) still have no interface to permit App. to use SD Card,
-I found that 3rd party fbind utility for resolve this issue, that you can mount folder from internal storage pointing to external SD Card folder.
+I found that 3rd party fbind utility for resolve this issue, that you can mount folder from internal storage folder to external SD Card folder.
 
 ### what's fbind ?
 This is an advanced mounting utility for folders, EXT4 images (loop devices), LUKS/LUKS2 encrypted volumes, regular partitions and more.
